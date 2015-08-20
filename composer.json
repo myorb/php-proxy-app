@@ -8,5 +8,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+		"athlon1600/php-proxy": "@dev"
+	},
+	"scripts": {
+		"post-create-project-cmd": [
+			"php -f setup.txt"
+		]
+	}
 }
