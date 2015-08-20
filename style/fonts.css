@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Museo300';
+    src: url('fonts/Museo/Museo_Slab_300.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo100';
+    src: url('fonts/Museo/Museo_Slab_100.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSans100';
+    src: url('fonts/Museo/MuseoSans-100.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSans300';
+    src: url('fonts/Museo/MuseoSans-300.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoLight';
+    src: url('fonts/Museo/Museo_Slab_100.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato/Lato-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+

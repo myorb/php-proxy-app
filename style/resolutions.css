@@ -1,0 +1,76 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+
+    body {
+        background-image: url("images/backgroundImage.jpeg");
+    }
+
+    .form-control {
+        font-size: 24px;
+    }
+
+    .main_title {
+        font-size: 52px;
+        padding-top: 119px;
+    }
+
+    .page-err .err h2 {
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
+    /*.page-err .err{*/
+    /*width: 360px;*/
+    /*height: 360px;*/
+    /*}*/
+    /*.page-err .err .err-inner{*/
+    /*width: 300px;*/
+    /*height: 300px;*/
+    /*}*/
+    #infectedUserBrowsingAlert {
+        font-size: 35px;
+        max-width: none;
+        margin-top: 0;
+    }
+
+    .form-inline .form-control {
+        width: 450px;
+        height: 50px;
+        font-size: 35px;
+    }
+
+    .btn {
+        padding: 4px 27px;
+        font-size: 30px;
+    }
+
+    label {
+        font-size: 26px;
+    }
+
+    .logo_img {
+        width: 270px;
+    }
+
+    #iframeDiv {
+        margin-top: 270px;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+    body {
+        background-image: url("images/backgroundImage.jpeg");
+    }
+
+    #infectedUserBrowsingAlert {
+        font-size: 22px;
+        max-width: none;
+        margin-top: 0;
+    }
+}

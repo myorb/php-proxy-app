@@ -1,0 +1,159 @@
+body {
+    font-family: "MuseoSans300", "Helvetic Neue", Helvetica, Arial;
+
+    background: url("images/backgroundImage.tiff") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.form-inline .upper_input {
+    width: 250px;
+}
+
+.form-inline .buttom_input {
+    width: 365px;
+!important;
+}
+
+.browsBtn {
+    /*background-color: rgba(232, 98, 81, 0.75);*/
+    background-color: #04ADBF;
+    border-color: #04ADBF;
+    /*border-color: rgba(232, 98, 81, 0.46);*/
+    box-shadow: none;
+    color: white;
+    text-shadow: none;
+    background-image: none;
+}
+
+/*placeholder page*/
+.page-err {
+    z-index: 9999999;
+
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    background-color: rgba(0, 0, 0, 0.37);
+    background-repeat: repeat;
+    height: 100%
+
+}
+
+.page-err .err-container {
+    padding: 10% 10px 0;
+}
+
+/*.page-err .err {*/
+/*margin: auto;*/
+/*width: 260px;*/
+/*height: 260px;*/
+/*border-radius: 50%;*/
+/*border: 2px solid #248AAF;*/
+/*padding: 28px;*/
+/*}*/
+/*.page-err .err .err-inner {*/
+/*width: 200px;*/
+/*height: 200px;*/
+/*padding: 30px 0;*/
+/*border-radius: 50%;*/
+/*background-color: #248AAF;*/
+/*color: #fafafa;*/
+/*}*/
+.page-err .err h1 {
+    margin: 0;
+    color: #fafafa;
+    font-size: 100px;
+    line-height: 120px;
+}
+
+.page-err .err h2 {
+    /*margin: 0;*/
+    /*font-weight: 300;*/
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.page-err .err-mss {
+    margin: 50px 0 20px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.page-err .err-body {
+    padding: 8px 10px;
+}
+
+.btn-group-lg > .btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+
+#infectedUserBrowsingAlert {
+    max-width: 475px;
+    padding: 6px 8px 6px 8px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    vertical-align: middle;
+}
+
+.infectedUserAlert {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+    font-weight: bolder;
+    text-align: center;
+    display: none;
+}
+
+.main_title {
+    color: #ffffff;
+    font-size: 41px;
+    line-height: 1.7;
+    font-weight: 800;
+    margin-top: 65px;
+    margin-bottom: 117px;
+}
+
+.logo_img {
+    width: 170px;
+    padding: 10px 0px 5px 0px;
+    cursor: pointer;
+}
+
+label {
+    font-weight: normal;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-inline .btn {
+    border-radius: 0;
+}
+
+.form-inline .btn:focus {
+    border-radius: 0;
+    outline: none;
+}
+
+#iframeDiv {
+
+    background: #fff url(images/loading5tras.gif) center 300px no-repeat;
+    display: none;
+    margin-top: 55px;
+    height: 100%;
+}
+
+.buttom_form .btn {
+    padding: 6px 66px;
+}
+

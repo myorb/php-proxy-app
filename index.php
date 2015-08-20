@@ -58,7 +58,7 @@ if(isset($_POST['url'])){
 		header("Location: ".Config::get('index_redirect'));
 		
 	} else {
-		echo render_template("./templates/main.php", array('version' => Proxy::VERSION));
+		echo render_template("./templates/namogoo.php", array('version' => Proxy::VERSION));
 	}
 
 	exit;
@@ -118,7 +118,7 @@ try {
 		
 	} else {
 	
-		echo render_template("./templates/main.php", array(
+		echo render_template("./templates/namogoo.php", array(
 			'url' => $url,
 			'error_msg' => $ex->getMessage(),
 			'version' => Proxy::VERSION
