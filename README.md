@@ -9,7 +9,7 @@ Keep in mind that this is a **project** and not a library. Installing this via *
 A project such as this, should be installed straight into the public directory of your web server.
 
 ```bash
-composer create-project athlon1600/php-proxy-app:dev-master /var/www/
+composer create-project myorb/php-proxy-app:dev-master /var/www/
 ```
 
 If you do not have composer or trying to host this application on a **shared hosting**, then download a pre-installed version of this app as a ZIP archive from [**www.php-proxy.com**](https://www.php-proxy.com/)
